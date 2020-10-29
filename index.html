@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cool App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="user-input-wrapper">
+        <form id="sell-form">
+            <div class="form-group">
+                <label for="strategy">Strategy</label>
+                <select class="form-control"
+                        id="strategy">
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="shares">Shares</label>
+                <input type="number"
+                       class="form-control"
+                       id="shares"
+                       placeholder="How much shares do you wish to sell?">
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number"
+                       class="form-control"
+                       id="price"
+                       placeholder="What price to do want to set for selling shares?">
+            </div>
+            <button type="submit" class="btn btn-primary">Sell</button>
+        </form>
+    </div>
+    <div class="data-wrapper">
+
+    </div>
+</div>
+</body>
+</html>
